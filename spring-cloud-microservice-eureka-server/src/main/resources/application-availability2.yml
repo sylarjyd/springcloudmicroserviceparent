@@ -1,0 +1,14 @@
+server:
+  port: 4444  #服务端口号
+eureka:
+  client:
+    service-url:
+      #相互注册，组成一个集群，实现高可用
+      defaultZone: http://availability1:3333/eureka/,http://availability3:5555/eureka/
+  instance:
+    #主机名
+    hostname: availability2
+spring:
+  application:
+    #服务名称
+    name: eureka-availability-server
