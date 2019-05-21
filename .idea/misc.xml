@@ -6,6 +6,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-microservice-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-microservice-eureka-client/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-microservice-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-microservice-config-client/pom.xml" />
       </list>
     </option>
   </component>
